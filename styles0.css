@@ -96,16 +96,16 @@ body {
   -webkit-perspective: 1000px;
 }
 
+
+/*
+ * 再来点儿别的变化.
+ */
+
 #style-text {
   -webkit-transform-origin: right;
   max-height: 94.5%;
 }
 
-
-/**
- * So, let's talk projects. That's why you're here, right?
- * I can't imagine you'd come just to see the pretty colors.
- */
 
 pre:not(#style-text) {
   -webkit-transform: rotateY(10deg);
