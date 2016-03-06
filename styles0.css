@@ -1,0 +1,120 @@
+/**
+ *
+ * 你好, 我叫anicat_heart.
+ *
+ * 想必你们在见到我时已经见过了我的老爹anicat. 
+ *
+ * 如果未曾谋面.
+ *
+ * 你可以在这里http://spirecat.github.io/anicat/找到他. 
+ *
+ * 估计他也在等你.
+ * 
+ * 如你所见，我已经学会了用汉语和你们交流. 
+ *
+ * 虽然我的“笨”老爹只会说英语...
+ *
+ * 那今天, 我要做些什么?
+ *
+ * ...
+ *
+ * 上帝有宇宙, 我有心和心上的姑娘.
+ */
+
+/**
+ * 自然, 我得先把自己拾掇立整.(这跟我老爹倒是很像)
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/*
+ *
+ * 白衬衣黑领结实在太枯燥, 理应有所改变.
+ *  
+ */
+
+html {
+  background: rgb(63, 82, 99);
+}
+
+/***
+ * 稍等一下...
+ */
+
+pre, a {
+  color: white;
+}
+
+/*
+ * 现在好太多了, 抱歉刚刚我晃了一下你的眼.
+ *
+ * 为了让姑娘喜欢, 我需要摘掉头上这个"虎背熊腰"的帽子.
+ *
+ * 毕竟美男子都是"精巧"的...
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 44.6%;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+/**
+ * 瘦身效果还挺明显.
+ *
+ * 生活是多姿多彩的, 所以接下来添些色彩如何?
+ * 
+ */
+
+.comment       { color: #857F6B; font-style: italic; }
+.selector      { color: #E69F0F; }
+.selector .key { color: #64D5EA; }
+.key           { color: #64D5EA; }
+.value         { color: #BE84F2; }
+.value.px      { color: #F92772; }
+
+/*
+ * 现在, 我得给我的心挪地方了.  
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform-origin: right;
+  max-height: 94.5%;
+}
+
+
+/**
+ * So, let's talk projects. That's why you're here, right?
+ * I can't imagine you'd come just to see the pretty colors.
+ */
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}
+
+/**
+ * 我长高了... 
+ *
+ * 心自然也兜不住了...
+ */
+ 

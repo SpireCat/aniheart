@@ -1,0 +1,189 @@
+
+#heart,#echo{
+ position: absolute;
+ top: 100px; 
+ left: 125px;
+ height: 400px;
+ width: 400px; 
+ text-align:center;
+ -webkit-transform: scale(0.95);
+         transform: scale(0.95);
+}
+
+#heart{
+ z-index: 8;
+}
+
+#echo{
+ z-index: 7;
+}
+
+/*
+ * 别急, 它就在路上.
+ *
+ */
+
+#heart::before,#echo::before{
+ content: '';
+ position: absolute;
+ top: 60px;
+ left: 135px;
+ width: 100px;
+ height: 160px;
+ background: #c66c75;
+ border-radius: 150px 150px 0 0;
+ -webkit-transform: rotate(-45deg);
+}
+
+#heart::after,#echo::before{
+ content: '';
+ position: absolute;
+ top: 60px;
+ left: 178px;
+ width: 100px;;
+ height: 160px;
+ background: #c66c75;
+ border-radius: 150px 150px 0 0;
+ -webkit-transform: rotate(45deg);
+}
+
+/*
+ *这哪是心?!不就是张纸片...
+ *
+ */
+
+#heart::before{
+box-shadow:
+   inset 6px 6px 0px 6px rgba(255,255,255,0.1);
+}
+
+#heart::after{
+box-shadow:
+   inset -6px -6px 0px 6px rgba(255,255,255,0.1);
+}
+
+/*
+ * 嗯, 现在自然多了.
+ *
+ * 正所谓心有所属, 你问我这妹子得美成什么样儿.
+ *
+ * 脑子笨实在没记住, 朦朦胧胧就记了一个名字.
+ *
+ */
+
+#heart i::before{
+ content: 'Jiryar';
+ position: absolute;
+ z-index: 9;
+ left: 180px;
+ top: 125px;
+ font-style: normal;
+ color: rgba(255,255,255,0.8);
+}
+
+/*
+ * 你问我这心动是什么感觉?
+ *
+ * 我想大概是这样...
+ */
+
+@-webkit-keyframes heartbeat {
+  0%, 100% { 
+    -webkit-transform: scale(0.95); 
+            transform: scale(0.95); 
+  }
+  50% { 
+    -webkit-transform: scale(1.00); 
+            transform: scale(1.00); 
+  }
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(0.95); }
+  50%      { transform: scale(1.00); }
+}
+
+@-webkit-keyframes echo {
+  0%   { 
+    opacity: 0.1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% { 
+    opacity: 0;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+}
+
+@keyframes echo {
+  0%   { 
+    opacity: 0.1;
+    transform: scale(1);
+  }
+  100% { 
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+
+
+/* 
+ * 稍候, 它可能被美到心脏骤停了.
+ */
+
+#heart, #echo {
+  -webkit-animation-duration: 2000ms;
+          animation-duration: 2000ms;
+  -webkit-animation-timing-function: 
+    cubic-bezier(0, 0, 0, 1.74);
+          animation-timing-function: 
+            cubic-bezier(0, 0, 0, 1.74);
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+#heart { 
+  -webkit-animation-name: heartbeat; 
+          animation-name: heartbeat; 
+}
+#echo { 
+  -webkit-animation-name: echo; 
+          animation-name: echo; 
+}
+
+
+/* 
+ * 快了, 就快了...          
+ */
+
+#heart, #echo {
+
+/* 3...
+ * 2..
+ * 1.
+ *        
+ */
+  
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  
+/* 
+ * 春风起的时候, 它应该会跳的更快吧...
+ *        
+ */
+  
+}
+
+/* 
+ * 2016/3/6 By Sun Jian
+ * 
+ * For all of you, especially Jiryar.
+ */
+
+
+
