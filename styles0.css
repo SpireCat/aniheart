@@ -1,0 +1,121 @@
+/**
+ *
+ * 你好, 我来自山师.
+ *
+ * 茫茫人海中, 我们以一个这样怪诞的开场白开启了一幕话剧.
+ *
+ * 你呀是真的傻, 谁会这样给别人介绍自己.
+ *
+ * 夏天的南京是够让人狼狈的, 我来的第一天就迎之以雨,
+ *
+ * 也许南京和我一样也不喜欢我们之间的陌生。
+ * 
+ * 好歹...
+ *
+ * 算是遇见了你.
+ *
+ * 可能见你和下雨一样,
+ *
+ * 都是洗礼.
+ *
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/*
+ * 遇见了你, 天是天, 云是云.
+ */
+
+html {
+  background: rgb(63, 82, 99);
+}
+
+pre, a {
+  color: white;
+}
+
+/*
+ * 开始我想,
+ *
+ * 有一天得着机会一定举杯敬谢你父母,
+ *
+ * 感谢他们为人世间出落了一个如此这般的女子。
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 44.6%;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+/**
+ * 后来我想, 不对.
+ *
+ * 你定是天地生的, 美得早已超越人形.
+ *
+ * 非要打个比喻的话, 你一定是人间的七种颜色.
+ *
+ * 因为很多事都因你丰富多彩起来.
+ * 
+ */
+
+.comment       { color: #857F6B; font-style: italic; }
+.selector      { color: #E69F0F; }
+.selector .key { color: #64D5EA; }
+.key           { color: #64D5EA; }
+.value         { color: #BE84F2; }
+.value.px      { color: #F92772; }
+
+/*
+ * 你知道吗？
+ *
+ * 世界上有两种罪,
+ *
+ * 你笑是一种, 不笑是另一种. 
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+
+/*
+ * 你知道的, 我的世界开始有了变化.
+ */
+
+#style-text {
+  -webkit-transform-origin: right;
+  max-height: 94.5%;
+}
+
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}
+
+/**
+ * 人间四月芳菲尽, 山寺桃花始盛开.
+ *
+ * 我们一直在争论谁是后知后觉的那个人, 
+ *
+ * 我和你讲, 一定是你.
+ *
+ * 不然你以为南京为什么会这么酷热.
+ */
+ 
